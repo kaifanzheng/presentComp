@@ -243,7 +243,9 @@ public class presentate {
         Person Ji = new Person(1990,2002);
         Person lo = new Person(2002,2090);
         Person fi = new Person(1960,2048);
-        Person[] foo = {Li,Ye,Ji,lo,fi};
+        Person di = new Person(2003,2032);
+
+        Person[] foo = {Li,Ye,Ji,lo,fi,di};
         System.out.println(bestYearB(foo));
 //        ArrayList<Integer> test = new ArrayList<Integer>();
 //        for(int i =2000;i<2008+1;i++){
